@@ -1,0 +1,104 @@
+*{
+margin: 0;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;
+}
+
+/* Margin Example */
+/*
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    margin:20px 50px 200px 300px;
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+}
+*/
+
+
+/* Padding Example */
+/* #box1{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+
+}
+#box2{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+    padding:100px 200px 250px 300px;
+}
+ */
+
+ /* Margin Example 2 */
+/*
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+
+}
+ */
+
+/* Demonstration Flexbox */
+/* Navbar med flex */
+nav{
+    border: 2px;
+    border-style: dotted;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#links p{
+display: inline;
+justify-content: center;
+}
+
+/* Demo with 2 columns, image and text */
+#hero-image{
+   width: 50vw;
+}
+
+#hero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#text{
+
+width: 50vw;
+justify-content:center;
+text-align: center;
+margin: auto;
+
+}
+
+#text p{
+    text-transform: capitalize;
+}
+
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#image{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
